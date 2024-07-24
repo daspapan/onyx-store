@@ -40,3 +40,5 @@ infra/cdk.context.json
 .amplify
 amplify_outputs*
 amplifyconfiguration*
+
+/_infra
