@@ -1,5 +1,6 @@
 {
   "name": "next14-amplify2-onyx-store",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
   "scripts": {
