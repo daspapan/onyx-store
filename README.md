@@ -5,7 +5,7 @@ npx create-next-app [PROJECT-NAME]
 
 # Install packages
 ```sh
-npm install --save aws-amplify @aws-amplify/adapter-nextjs @aws-amplify/ui-react 
+npm install --save aws-amplify @aws-amplify/adapter-nextjs @aws-amplify/ui-react @aws-amplify/ui-react-storage
 ```
 
 # Setup Amplify

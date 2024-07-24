@@ -1,10 +1,28 @@
-import Image from "next/image";
+import ProductItem from "@/components/ProductItem";
 
 export default function Home() {
+
+  let product = {
+    name: "string",
+    description: "string",
+    price: 0,
+    image: "https://dummyimage.com/600x400/000/fff",
+    content: undefined,
+    id: "string",
+    createdAt: "string",
+    updatedAt: "string",
+  }
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
-      <h1>Hello ONYX Store NextJS Project</h1>
+    <main className="flex min-h-screen flex-col justify-between p-24">
+
+      <ProductItem product={product} isSignedIn={false} />
+
+      <ProductItem product={product} isSignedIn={false} />
+
+      <ProductItem product={product} isSignedIn={false} />
+
+      <ProductItem product={product} isSignedIn={false} />
+
     </main>
   );
 }
