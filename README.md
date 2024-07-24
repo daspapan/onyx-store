@@ -1,12 +1,19 @@
+# Create Project
+```sh
+npx create-next-app [PROJECT-NAME]
+```
+
 # Install packages
+```sh
+npm install --save aws-amplify @aws-amplify/adapter-nextjs @aws-amplify/ui-react 
+```
 
-npm install @aws-amplify/ui-react 
-npm install @aws-amplify/adapter-nextjs
-
-# Amplify
+# Setup Amplify
+```sh
 npm create amplify@latest
+```
 
-## Infra
+## Setup CDK Infra
 npm install --save git-branch
 npm install --save-dev @types/git-branch  --legacy-peer-deps
 
