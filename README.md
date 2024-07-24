@@ -3,8 +3,11 @@
 npm install @aws-amplify/ui-react 
 npm install @aws-amplify/adapter-nextjs
 
+# Amplify
+npm create amplify@latest
+
 ## Infra
-npm install git-branch
+npm install --save git-branch
 npm install --save-dev @types/git-branch  --legacy-peer-deps
 
 git init

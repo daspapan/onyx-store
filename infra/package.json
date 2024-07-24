@@ -10,6 +10,7 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
+    "destroy": "npx aws-cdk destroy --require-approval never",
     "deploy:local": "npx aws-cdk deploy --profile fsps-cdk-admin --outputs-file output.json"
   },
   "devDependencies": {
